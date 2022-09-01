@@ -1,0 +1,116 @@
+/* body
+-------------------------------------- */
+
+body {
+    font-family: 'Hiragino Kaku Gothic Pro';
+}
+
+
+/* container
+-------------------------------------- */
+
+.container {
+    padding-top: 100px;
+    padding-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.container-inner {
+    width: 1000px;
+}
+
+.container-2 {
+    width: 750px;
+}
+
+/* header
+-------------------------------------- */
+
+.header {
+    width: 100%;
+    object-fit: contain;
+    background-image: url(/images/nav.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    height: 55px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.header .container-inner {
+    position: relative;
+}
+
+.header img[class^="header__"] {
+    position: absolute;
+    top: 0;
+    z-index: 3;
+    height: 55px;
+}
+
+.header__logo {
+    left: -3px;
+}
+
+.header__text1 {
+    left: 155px;
+}
+
+.header__text2 {
+    left: 242px;
+}
+
+.header__link {
+    right: 27px;
+}
+
+/* nav
+-------------------------------------- */
+
+nav {
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(to right, rgb(44, 167, 202), rgb(44, 166, 202) 90%);
+    color: #FFFFFF;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+
+nav .nav {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.nav__line {
+    border-bottom: 1px solid #FFFFFF;
+    width: 50px;
+}
+
+/* key visual
+-------------------------------------- */
+
+section.kv {
+    background-image: url(/images/KV.jpg);
+    height: 600px;
+    width: 100%;
+    background-position: 100% 100%;
+    background-size: cover;
+}
+
+/* footer
+-------------------------------------- */
+
+.footer {
+    background-image: url(/images/footer.jpg);
+    width: 100%;
+    height: 74px;
+    background-position: center;
+}

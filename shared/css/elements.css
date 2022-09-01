@@ -1,0 +1,84 @@
+/* heading
+-------------------------------------- */
+
+h3.heading {
+    font-size: 52px;
+    color: #ffffff;
+    font-weight: 600;
+}   
+
+h4.subheading {
+    font-size: 28px;
+    margin-top: 14px;
+    margin-bottom: 58px;
+    color: #ffffff;
+    font-family: 'DIN Condensed';
+    letter-spacing: 0.04em;
+}
+
+/* margin
+-------------------------------------- */
+
+.mb-6 {
+    margin-bottom: 6px !important;
+}
+
+.mb-40 {
+    margin-bottom: 40px !important;
+}
+
+/* font-size
+-------------------------------------- */
+
+.font-size-20 {
+    font-size: 20px;
+}
+
+/* text alignment
+-------------------------------------- */
+
+.text-center {
+    text-align: center;
+}
+
+/* text blocks
+-------------------------------------- */
+
+.text-1 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 41px;
+    line-height: 1.75;
+}
+
+.text-2 {
+    font-size: 16px;
+    line-height: 2;
+}
+
+/* Section Blue Button
+-------------------------------------- */
+
+.section-btn {
+    background-image: url(/images/button.png);
+    width: 380px;   
+    padding: 20px 0 20px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    margin-top: 51px;
+    cursor: pointer;
+    align-items: center;
+}
+
+.section-btn .plus-sign {
+    margin-right: 12px;
+    width: 30px;
+    height: 30px;
+}
+
+.section-btn p {
+    font-size: 20px;
+}
+
