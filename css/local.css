@@ -147,14 +147,14 @@
     padding-top: 25px;
 }
 
-.character .character-note {
+.character .character-card__note {
     right: 0;
     font-size: 14px;
     position: absolute;
     top: -12px
 }
 
-.character .character-desc {
+.character .character-card__desc {
     line-height: 2;
 }
 
@@ -391,13 +391,13 @@
     transform: scaleY(-1);
 }
 
-.news-inner__item-date {
+.news-inner__date {
     color: #2e2e33;
     margin-right: 36px;
 }
 
 
-a.news-inner__item-desc {
+a.news-inner__desc {
     color: #0074c5;
     text-decoration: none;
 }
